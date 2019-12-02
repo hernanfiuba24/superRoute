@@ -1,0 +1,27 @@
+@media all and (min-width: 1200px) {
+    .supermarketDetailBar{
+        position: relative;
+        left: 0;
+        top: 50px;    
+        height: 70px;
+        width: 100%;
+        background-color: #41cac6;
+        color:rgb(252, 252, 252);
+        text-align: center;
+    }
+    .supermarketDetails{
+        position: relative;
+        left: 0;
+        top: 50px;    
+        height: 70px;
+        width: 100%;
+        background-color: #41cac6;
+        color:rgb(252, 252, 252);
+        text-align: center;
+    }
+    .supermarketDetailImages {
+        position: relative;
+        top: 50px;
+        text-align: center;
+    }
+}

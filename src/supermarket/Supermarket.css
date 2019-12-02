@@ -1,0 +1,24 @@
+@media all and (min-width: 1200px) {
+    .supermarketBar{
+        position: relative;
+        left: 0;
+        top: 50px;    
+        height: 70px;
+        width: 100%;
+        background-color: #41cac6;
+        color:rgb(252, 252, 252);
+        text-align: center;
+    }
+
+    .titleSupermarketBar{
+        position: relative;
+        top:15px;    
+    }
+    
+    .SupermarketView{
+        position: relative;
+        top:100px;    
+        word-wrap: break-word;
+        height: 100%;
+    }
+}
