@@ -25,3 +25,19 @@
         text-align: center;
     }
 }
+    .product {
+        display: flex;
+     }
+     
+     .product--image {
+        order: 1;
+        @media only screen and (min-width: 1000px) {
+            order: 0;
+         }
+     }
+     
+     .product--detail {
+        grid-area: header;
+        grid-area: 1 / col4-start / last-line / 6;
+        text-align: left;
+     }

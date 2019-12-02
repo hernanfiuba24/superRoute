@@ -8,7 +8,7 @@ class Supermarket extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            supermarkets: [{ "name": "hallways" }, { "name": "hallwaysSuperX" }]
+            supermarkets: [{ "key": "hallways", "name": "Supermercado Suerte" }, { "key": "hallwaysSuperX", "name": "Supermercado Lluvia" }]
         };
     }
 
@@ -30,10 +30,10 @@ class Supermarket extends React.Component {
 
                 <div className="SupermarketView">
                     <ListGroup>
-                        <ListGroup.Item href={'/supermarkets/' + this.state.supermarkets[0].name} action variant="light">
+                        <ListGroup.Item href={'/supermarkets/' + this.state.supermarkets[0].key} action variant="light">
                             {this.state.supermarkets[0].name}
                         </ListGroup.Item>
-                        <ListGroup.Item href={'/supermarkets/' + this.state.supermarkets[1].name} action variant="light">
+                        <ListGroup.Item href={'/supermarkets/' + this.state.supermarkets[1].key} action variant="light">
                             {this.state.supermarkets[1].name}
                         </ListGroup.Item>
                     </ListGroup>
